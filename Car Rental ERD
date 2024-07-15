@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T20:22:00.524Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="t0lxBG8iA0PTAQ17GLG6" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T21:26:24.582Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="T2JwKck3UZZ3YWYM5nSm" version="24.6.5" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1567" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -447,6 +447,9 @@
         </mxCell>
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-127" value="Cardinality: Many to One&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Many rental transactions can be completed by a customer at a given time.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;And, a customer is required to complete a rental. A rental is optional should the customer not like the rental car.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Business Rule:&lt;/b&gt; Customers can rent multiple cars but each rental is linked to only one customer&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="970" y="30" width="150" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="J6IDqPXqMxrqj_vdK1lQ-128" value="Adepeju Awoyemi&lt;div&gt;IS 410&lt;/div&gt;&lt;div&gt;Prof. Kamran Fayyaz&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1170" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
