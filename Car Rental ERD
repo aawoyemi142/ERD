@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T20:16:41.415Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="xi2DFDo2WBjc6YyRcLQM" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T20:17:21.741Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="sFbaocWHsR0jSHW7U9ki" version="24.6.5" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="922" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1567" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -404,17 +404,17 @@
           <mxGeometry x="110" y="800" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-112" value="Employee" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="945" y="1150" width="80" height="30" as="geometry" />
+          <mxGeometry x="710" y="930" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-113" value="Branch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1045" y="1150" width="60" height="30" as="geometry" />
+          <mxGeometry x="810" y="930" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-114" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERzeroToOne;rounded=0;elbow=vertical;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1055" y="1164.68" as="sourcePoint" />
-            <mxPoint x="1015" y="1164.68" as="targetPoint" />
+            <mxPoint x="820" y="944.6800000000001" as="sourcePoint" />
+            <mxPoint x="780" y="944.6800000000001" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1055" y="1164.68" />
+              <mxPoint x="820" y="944.6800000000001" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -440,7 +440,7 @@
           <mxGeometry x="970" y="720" width="150" height="380" as="geometry" />
         </mxCell>
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-125" value="Cardinality: Many to One&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Many employees can work at a single branch and a single branch can have many employees.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;An employee is required to work at a branch but a branch is optional for an employee to work if there is online option...&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Business rule:&lt;/b&gt; Employees are assigned to one branch but a branch can have many employees.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="970" y="1180" width="150" height="270" as="geometry" />
+          <mxGeometry x="735" y="960" width="150" height="270" as="geometry" />
         </mxCell>
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-126" value="Cardinality: Many to Many&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Many rentals can require multiple payments and many payments can be used to complete multiple rentals.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A rental is not required if a customer decides not to get the car but a payment is required to complete the rental transaction.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Business Rule:&lt;/b&gt; Rentals can be paid in multiple installments or with different methods but each payment is linked to a specific rental.&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="970" y="350" width="150" height="320" as="geometry" />
