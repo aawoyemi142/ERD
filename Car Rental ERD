@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T03:00:12.347Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="nEokhXYjY4Y4t5I_DXHK" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T03:01:04.760Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="2KrvUV3btS_33Lbj0Oy8" version="24.6.5" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="673" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -169,7 +169,7 @@
             <mxRectangle width="60" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J6IDqPXqMxrqj_vdK1lQ-40" value="- Rental Date&#xa;- Rental End Date&#xa;- Total Cost of Rental" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="J6IDqPXqMxrqj_vdK1lQ-38">
+        <mxCell id="J6IDqPXqMxrqj_vdK1lQ-40" value="- Rental Date          - Rental Agreement&#xa;- Rental End Date&#xa;- Total Cost of Rental" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="J6IDqPXqMxrqj_vdK1lQ-38">
           <mxGeometry x="60" width="220" height="50" as="geometry">
             <mxRectangle width="220" height="50" as="alternateBounds" />
           </mxGeometry>
