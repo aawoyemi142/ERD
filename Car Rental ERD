@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T20:06:26.001Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="kI6Em6I0mKIYsxvUUznd" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T20:16:41.415Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="xi2DFDo2WBjc6YyRcLQM" version="24.6.5" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="922" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -353,39 +353,39 @@
           <mxGeometry x="30" y="30" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-98" value="Rental" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="950" y="280" width="60" height="30" as="geometry" />
+          <mxGeometry x="945" y="320" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-99" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERzeroToMany;rounded=0;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1010" y="294.77" as="sourcePoint" />
-            <mxPoint x="1050" y="294.77" as="targetPoint" />
+            <mxPoint x="1005" y="334.77" as="sourcePoint" />
+            <mxPoint x="1045" y="334.77" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-101" value="Payment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="280" width="70" height="30" as="geometry" />
+          <mxGeometry x="1045" y="320" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-103" value="Customer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1045" y="40" width="80" height="30" as="geometry" />
+          <mxGeometry x="1040" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-105" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1050" y="54.81999999999999" as="sourcePoint" />
-            <mxPoint x="1010" y="54.81999999999999" as="targetPoint" />
+            <mxPoint x="1045" y="14.819999999999993" as="sourcePoint" />
+            <mxPoint x="1005" y="14.819999999999993" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-102" value="Rental" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="950" y="40" width="60" height="30" as="geometry" />
+          <mxGeometry x="945" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-106" value="Car" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="955" y="560" width="40" height="30" as="geometry" />
+          <mxGeometry x="950" y="690" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-107" value="Customer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="560" width="80" height="30" as="geometry" />
+          <mxGeometry x="1025" y="690" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-108" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="995" y="575.5" as="sourcePoint" />
-            <mxPoint x="1035" y="574.5" as="targetPoint" />
+            <mxPoint x="990" y="705.5" as="sourcePoint" />
+            <mxPoint x="1030" y="704.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-109" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERzeroToMany;rounded=0;" edge="1" parent="1">
@@ -404,17 +404,17 @@
           <mxGeometry x="110" y="800" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-112" value="Employee" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="950" y="920" width="80" height="30" as="geometry" />
+          <mxGeometry x="945" y="1150" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-113" value="Branch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="920" width="60" height="30" as="geometry" />
+          <mxGeometry x="1045" y="1150" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-114" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERzeroToOne;rounded=0;elbow=vertical;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1060" y="934.6800000000001" as="sourcePoint" />
-            <mxPoint x="1020" y="934.6800000000001" as="targetPoint" />
+            <mxPoint x="1055" y="1164.68" as="sourcePoint" />
+            <mxPoint x="1015" y="1164.68" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1060" y="934.6800000000001" />
+              <mxPoint x="1055" y="1164.68" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -430,23 +430,23 @@
             <mxPoint x="700" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J6IDqPXqMxrqj_vdK1lQ-122" value="Cardinality: Many to One&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;There can be many rentals for a single car but a car can only have one rental at a time.&lt;br&gt;&lt;br&gt;A rental is required to acquire a car and a car is also required to complete a rental.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Business Rule:&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="50" y="60" width="150" height="210" as="geometry" />
+        <mxCell id="J6IDqPXqMxrqj_vdK1lQ-122" value="Cardinality: Many to One&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;There can be many rentals for a single car but a car can only have one rental at a time.&lt;br&gt;&lt;br&gt;A rental is required to acquire a car and a car is also required to complete a rental.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Business Rule:&lt;/b&gt; A car can be rented multiple times but each rental involves only one car.&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="50" y="60" width="150" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="J6IDqPXqMxrqj_vdK1lQ-123" value="&lt;b&gt;Cardinality:&lt;/b&gt; Many to Many&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A car can have many branches it is associated with (Pickup and drop-off. E.g.: Uhal trucks). And, a branch can have many cars.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A car is not required to be at a branch if it is already rented out but a branch is required to rent a car if online option is not considered...&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Business Rule:&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="50" y="830" width="150" height="260" as="geometry" />
+        <mxCell id="J6IDqPXqMxrqj_vdK1lQ-123" value="&lt;b&gt;Cardinality:&lt;/b&gt; Many to Many&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A car can have many branches it is associated with (Pickup and drop-off. E.g.: Uhal trucks). And, a branch can have many cars.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A car is not required to be at a branch if it is already rented out but a branch is required to rent a car if online option is not considered...&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Business Rule&lt;/b&gt;: Multiple car are associated with multiple branches for logistical purposes.&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="50" y="830" width="150" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="J6IDqPXqMxrqj_vdK1lQ-124" value="Cardinality: One to Many&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A car can be rented out to many customers over a period of time and vice versa.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A car is associated (Required) with at least one customer while the association with multiple customers is optional in a case where the customer decides to get a different car.&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="970" y="590" width="150" height="250" as="geometry" />
+        <mxCell id="J6IDqPXqMxrqj_vdK1lQ-124" value="Cardinality: One to Many&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A car can be rented out to many customers over a period of time and vice versa.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A car is associated (Required) with at least one customer while the association with multiple customers is optional in a case where the customer decides to get a different car.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Business Rule:&lt;/b&gt; Every must have been rented by a customer at some point. A customer renting a car is optional because another customer could have rented the car.&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="970" y="720" width="150" height="380" as="geometry" />
         </mxCell>
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-125" value="Cardinality: Many to One&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Many employees can work at a single branch and a single branch can have many employees.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;An employee is required to work at a branch but a branch is optional for an employee to work if there is online option...&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Business rule:&lt;/b&gt; Employees are assigned to one branch but a branch can have many employees.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="970" y="950" width="150" height="270" as="geometry" />
+          <mxGeometry x="970" y="1180" width="150" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="J6IDqPXqMxrqj_vdK1lQ-126" value="Cardinality: Many to Many&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Many rentals can require multiple payments and many payments can be used to complete multiple rentals.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A rental is not required if a customer decides not to get the car but a payment is required to complete the rental transaction.&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="970" y="310" width="150" height="220" as="geometry" />
+        <mxCell id="J6IDqPXqMxrqj_vdK1lQ-126" value="Cardinality: Many to Many&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Many rentals can require multiple payments and many payments can be used to complete multiple rentals.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A rental is not required if a customer decides not to get the car but a payment is required to complete the rental transaction.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Business Rule:&lt;/b&gt; Rentals can be paid in multiple installments or with different methods but each payment is linked to a specific rental.&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="970" y="350" width="150" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="J6IDqPXqMxrqj_vdK1lQ-127" value="Cardinality: Many to One&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Many rental transactions can be completed by a customer at a given time.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;And, a customer is required to complete a rental. A rental is optional should the customer not like the rental car.&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="970" y="70" width="150" height="180" as="geometry" />
+        <mxCell id="J6IDqPXqMxrqj_vdK1lQ-127" value="Cardinality: Many to One&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Many rental transactions can be completed by a customer at a given time.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;And, a customer is required to complete a rental. A rental is optional should the customer not like the rental car.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Business Rule:&lt;/b&gt; Customers can rent multiple cars but each rental is linked to only one customer&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="970" y="30" width="150" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
