@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T17:59:20.482Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="cb50-bjl28Dh5Pbt0I9I" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T18:01:43.471Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="3BFLLNUonvnATpW6BlRZ" version="24.6.5" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="719" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -433,8 +433,8 @@
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-122" value="Cardinality: Many to One&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;There can be many rentals for a single car but a car can only have one rental at a time.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Business Rule:&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="60" width="150" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="J6IDqPXqMxrqj_vdK1lQ-123" value="Cardinality: Many to Many&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A car can have many branches it is associated with (Pickup and drop-off. E.g.: Uhal trucks). And, a branch can have many cars.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A car is not required to be at a branch if it is already rented out but a branch is required to rent a car if online option is not considered..&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="830" width="150" height="230" as="geometry" />
+        <mxCell id="J6IDqPXqMxrqj_vdK1lQ-123" value="Cardinality: Many to Many&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A car can have many branches it is associated with (Pickup and drop-off. E.g.: Uhal trucks). And, a branch can have many cars.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A car is not required to be at a branch if it is already rented out but a branch is required to rent a car if online option is not considered...&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Business Rule:&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="830" width="150" height="260" as="geometry" />
         </mxCell>
         <mxCell id="J6IDqPXqMxrqj_vdK1lQ-124" value="Cardinality: One to Many" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="970" y="590" width="150" height="30" as="geometry" />
