@@ -1,63 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-07-19T16:31:33.138Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="_6pAULXhbkO7h0tcT7LH" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-19T16:32:04.620Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="-P3RIUQVn2UNwoPfg3WL" version="24.7.1" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1493" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="5600" dy="2360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5-_W_V20jvPb3o29qMEB-80" value="Car" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1670" y="1560" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="5-_W_V20jvPb3o29qMEB-81" value="Customer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1745" y="1560" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="5-_W_V20jvPb3o29qMEB-82" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1710" y="1575.5" as="sourcePoint" />
-            <mxPoint x="1750" y="1574.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5-_W_V20jvPb3o29qMEB-83" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERzeroToMany;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="990" y="1584.7600000000002" as="sourcePoint" />
-            <mxPoint x="1030" y="1584.7600000000002" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1000" y="1584.7600000000002" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5-_W_V20jvPb3o29qMEB-84" value="Car" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="950" y="1570" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="5-_W_V20jvPb3o29qMEB-85" value="Branch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="1570" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="5-_W_V20jvPb3o29qMEB-86" value="Employee" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1300" y="1620.0000000000002" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="5-_W_V20jvPb3o29qMEB-87" value="Branch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="1620.0000000000002" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="5-_W_V20jvPb3o29qMEB-88" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERzeroToOne;rounded=0;elbow=vertical;" parent="1" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1410" y="1634.68" as="sourcePoint" />
-            <mxPoint x="1370" y="1634.68" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1410" y="1634.68" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5-_W_V20jvPb3o29qMEB-92" value="&lt;b&gt;Cardinality:&lt;/b&gt; Many to Many&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A car can have many branches it is associated with (Pickup and drop-off. E.g.: Uhal trucks). And, a branch can have many cars.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A car is not required to be at a branch if it is already rented out but a branch is required to rent a car if online option is not considered...&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Business Rule&lt;/b&gt;: Multiple car are associated with multiple branches for logistical purposes.&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#66B2FF;" parent="1" vertex="1">
-          <mxGeometry x="970" y="1600" width="150" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="5-_W_V20jvPb3o29qMEB-93" value="Cardinality: One to Many&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A car can be rented out to many customers over a period of time and vice versa.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A car is associated (Required) with at least one customer while the association with multiple customers is optional in a case where the customer decides to get a different car.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Business Rule:&lt;/b&gt; Every must have been rented by a customer at some point. A customer renting a car is optional because another customer could have rented the car.&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#66B2FF;" parent="1" vertex="1">
-          <mxGeometry x="1690" y="1590" width="150" height="380" as="geometry" />
-        </mxCell>
-        <mxCell id="5-_W_V20jvPb3o29qMEB-94" value="Cardinality: Many to One&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Many employees can work at a single branch and a single branch can have many employees.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;An employee is required to work at a branch but a branch is optional for an employee to work if there is online option...&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Business rule:&lt;/b&gt; Employees are assigned to one branch but a branch can have many employees.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#66B2FF;" parent="1" vertex="1">
-          <mxGeometry x="1325" y="1650.0000000000002" width="150" height="270" as="geometry" />
-        </mxCell>
-        <mxCell id="5-_W_V20jvPb3o29qMEB-97" value="Adepeju Awoyemi&lt;div&gt;IS 410&lt;/div&gt;&lt;div&gt;Prof. Kamran Fayyaz&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="980" y="1940" width="140" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="5-_W_V20jvPb3o29qMEB-169" value="Rental" style="shape=table;startSize=20;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#00FF00;" parent="1" vertex="1">
           <mxGeometry x="1040" y="480" width="200" height="160" as="geometry" />
         </mxCell>
