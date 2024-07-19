@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-19T16:10:00.158Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ncb3piXPAdQ5G1ZWEUER" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-19T16:13:14.058Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="n8cGOzLNOBCxRnU1-xus" version="24.7.1" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2489" dy="1049" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1318" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1051,6 +1051,21 @@
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="2029.8" y="100.21000000000001" as="sourcePoint" />
             <mxPoint x="1940" y="100.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJo4-S1H4zThEH04yzoZ-25" value="Branch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="78" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YJo4-S1H4zThEH04yzoZ-26" value="Employee" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="78" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YJo4-S1H4zThEH04yzoZ-27" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;jumpStyle=line;edgeStyle=elbowEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="310" y="92.72" as="sourcePoint" />
+            <mxPoint x="200" y="92.72" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="105.05" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
