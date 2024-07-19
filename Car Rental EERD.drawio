@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-19T16:13:14.058Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="n8cGOzLNOBCxRnU1-xus" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-19T16:14:22.223Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Et8eGW1sgdb0yko-_WcG" version="24.7.1" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1318" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2800" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -984,15 +984,15 @@
         <mxCell id="YJo4-S1H4zThEH04yzoZ-3" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;jumpStyle=line;edgeStyle=elbowEdgeStyle;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="1380" y="1134.76" as="sourcePoint" />
-            <mxPoint x="1300" y="1134.57" as="targetPoint" />
+            <mxPoint x="1260" y="1135" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YJo4-S1H4zThEH04yzoZ-4" value="Rental" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="1120" width="60" height="30" as="geometry" />
+          <mxGeometry x="1150" y="1120" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YJo4-S1H4zThEH04yzoZ-5" value="Payment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1405" y="1120" width="70" height="30" as="geometry" />
+          <mxGeometry x="1425" y="1120" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YJo4-S1H4zThEH04yzoZ-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Cardinality:&lt;/b&gt;&amp;nbsp;Many to Many&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;A branch can have many vehicles.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;A vehicle can be associated with many branches (Pickup and drop-off. E.g.: Uhal trucks).&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;A vehicle is not required to be at a branch if it is already rented out but a branch is required to rent a vehicle since the vehicle has to be picked up from a location.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;b&gt;Business Rule&lt;/b&gt;: Multiple vehicles are associated with multiple branches for logistical purposes.&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="1">
           <mxGeometry x="1840" y="117.5" width="310" height="322.5" as="geometry" />
@@ -1009,7 +1009,7 @@
         <mxCell id="YJo4-S1H4zThEH04yzoZ-11" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Cardinality&lt;/b&gt;: One to Many&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;A branch can have many employees. Many employees can work at a branch&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;An employee is required to work at a branch and a branch is also required for an employee to work.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;b&gt;Business rule:&lt;/b&gt;&amp;nbsp;Employees are assigned to one branch but a branch can have many employees.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="1">
           <mxGeometry x="20" y="117.5" width="470" height="259.5" as="geometry" />
         </mxCell>
-        <mxCell id="YJo4-S1H4zThEH04yzoZ-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YJo4-S1H4zThEH04yzoZ-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Cardinality:&lt;/b&gt;&amp;nbsp;One to Many&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Many payments can be used to complete a rental.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;A payment is required to complete a rental and a rental requires a payment to complete the transaction.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;b&gt;Business Rule:&lt;/b&gt;&amp;nbsp;Rentals can be paid in multiple installments or with different methods but each payment is linked to a specific rental.&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="540.25" width="470" height="259.5" as="geometry" />
         </mxCell>
         <mxCell id="YJo4-S1H4zThEH04yzoZ-13" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Cardinality:&lt;/b&gt;&amp;nbsp;One to Many&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Many rental transactions can be completed by a customer at a given time.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;And, a customer is required to complete a rental. A rental is optional should the customer not like the rental vehicle.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;b&gt;Business Rule:&lt;/b&gt;&amp;nbsp;Customers can rent multiple vehicles but each rental is linked to only one customer&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="1">
